@@ -10,3 +10,8 @@ even_list = list(filter(is_even, nums))
 
 print("The even elements in the list are:", even_list)
 
+##Implementing filter() function using lambda function
+even_list_lambda = list(filter(lambda x : x%2==0, nums))
+print("The even elements in the list using Lambda are:", even_list_lambda)
+
+
